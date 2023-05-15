@@ -1,0 +1,29 @@
+:root {
+  --c-body-text-color: #ffffff;
+
+  --c-dark-grey-bg: #242529;
+  --c-area-bg: #36383e;
+
+  --c-player-cards: #6f6f6f;
+  --c-player-cards-text: #fff;
+  --c-female-gender: #f476ff;
+  --c-male-gender: #76c6ff;
+
+  --c-blocks-input: #ff4b4b;
+  --c-turnovers-input: #ecd45e;
+  --c-goals-input: #4ed19d;
+  --c-assists-input: #9570cf;
+
+  --c-score-green: #37c356;
+  --c-score-light-green: #5dff81;
+  --c-score-red: #c91e1e;
+  --c-score-light-red: #ff4d4d;
+
+  --c-button-border: #efffad;
+
+  --c-live-button: #ff1a1a;
+
+  --br-areas: 10px;
+  --br-card: 10px 10px 2px 2px;
+  --br-gender: 0px 0px 2px 2px;
+}
