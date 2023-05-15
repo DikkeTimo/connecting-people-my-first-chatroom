@@ -27,3 +27,49 @@
   --br-card: 10px 10px 2px 2px;
   --br-gender: 0px 0px 2px 2px;
 }
+
+body {
+  background-color: var(--c-area-bg);
+}
+
+main {
+  color: black;
+  margin: 0 auto;
+  width: 50%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--c-player-cards);
+  border-radius: var(--br-areas);
+  height: 80vh;
+  text-align: center;
+}
+
+ul {
+  background-color: var(--c-body-text-color);
+  width: 10rem;
+  margin: 0 auto;
+  height: 10rem;
+  list-style: none;
+  overflow: scroll;
+}
+
+li {
+  color: #37c356;
+  width: 100%;
+}
+
+form {
+  padding: 3rem;
+  max-width: 10rem;
+  margin: 0 auto;
+}
+
+form > input {
+  border-radius: var(--br-areas);
+  border: none;
+}
+
