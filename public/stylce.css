@@ -64,8 +64,13 @@ ul {
 }
 
 li {
-  color: #fff;
-  padding: 0.2rem;
+  background-color: #fff;
+  border-radius: var(--br-areas);
+  text-align: left;
+  color: black;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  min-width: 4rem;
 }
 
 form {
