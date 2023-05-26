@@ -18,10 +18,15 @@
 <!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
+<img width="50%" alt="Scherm­afbeelding 2023-05-26 om 10 58 18" src="https://github.com/DikkeTimo/connecting-people-my-first-chatroom/assets/62908209/73ac6af6-1b87-4902-81db-fa2ead1ede31">
+
+
 
 ## Gebruik
 
 <!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
+
+
 
 ## Kenmerken
 
