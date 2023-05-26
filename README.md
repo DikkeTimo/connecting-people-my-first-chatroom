@@ -26,17 +26,23 @@
 
 <!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
 
+Op de app kan je chatten met de mensen die jou pagina bezoeken, type een berichtje er verstuur het door op de pijl te klikken of op enter te drukken.
 
 
 ## Kenmerken
 
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
 
+Door socket.on te gebruiken zie je een berichtje met ' welkom op de server '. 
+
+
 ## Installatie
 
 <!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
 
 ## Bronnen
+
+ <li> https://socket.io/get-started/chat </li>
 
 ## Licentie
 
