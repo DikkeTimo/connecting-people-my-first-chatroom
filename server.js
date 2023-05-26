@@ -12,10 +12,16 @@ const port = process.env.PORT || 4242;
 app.use(express.static("public"));
 
 ioServer.on("connection", (client) => {
-  console.log(`user ${client.id} connected`);
-
   client.on("message", (message) => {
     ioServer.emit("message", message);
+  });
+  console.log(`${client.id}`);
+});
+
+ioServer.on("connection", (socket) => {
+  socket.emit("session", {
+    sessionID: socket.sessionID,
+    userID: socket.userID,
   });
 });
 

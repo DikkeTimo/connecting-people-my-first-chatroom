@@ -21,6 +21,22 @@ socket.on("history", (history) => {
   });
 });
 
+socket.emit("message", "Welkom op deze server");
+
+socket.on("welcome", (message) => {
+  const welcomeMessageElement = document.getElementById("welcome-message");
+  welcomeMessageElement.innerHTML = message;
+});
+
+socket.on('idFromServer', (id) => {
+  // Get the HTML element by its ID
+  const myElement = document.getElementById('my-element');
+
+  // Update the ID of the element
+  myElement.id = id;
+  console.log(myElement)
+});
+
 function addMessage(message) {
   messages.appendChild(
     Object.assign(document.createElement("li"), { textContent: message })
